@@ -1,13 +1,12 @@
 package com.api.pushnotification.model;
-
 public class PushNotificationResponse {
     private int status;
     private String message;
-    
-    
+
+
     public PushNotificationResponse() {
     }
-    
+
     public PushNotificationResponse(int status, String message) {
         this.status = status;
         this.message = message;

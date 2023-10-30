@@ -22,7 +22,7 @@ public class PushNotificationController {
     @PostMapping("/notification/token")
     public ResponseEntity sendTokenNotification(@RequestBody PushNotificationRequest request) {
         pushNotificationService.sendPushNotificationToToken(request);
-        System.out.println("princr");
+        System.out.println("saurav singh chaudhary");
         return new ResponseEntity<>(new PushNotificationResponse(HttpStatus.OK.value(), "Notification has been sent."), HttpStatus.OK);
     }
 
